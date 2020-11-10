@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developer.DevJObOffer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textcongooffer"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:textColor="@color/colortext"
+        android:text="Latest Job Post Are Shown Below "
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        tools:ignore="MissingConstraints"></TextView>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewDev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_below="@+id/textcongooffer"
+        android:layout_margin="@dimen/_15sdp"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="@dimen/_15sdp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

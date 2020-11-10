@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.labourmangement">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Architect.JobApplyDetailsArch"></activity>
+        <activity android:name=".Contractor.AllJobs" />
+        <activity android:name=".Contractor.PaymentStatusContractor" />
+        <activity android:name=".Architect.PaymentStatusAR" />
+        <activity android:name=".Engineer.WagesApprovalRequestENG" />
+        <activity android:name=".Architect.WagesRequestAR" />
+        <activity android:name=".Developer.DevJobDetails" />
+        <activity android:name=".Developer.DevJObOffer" />
+        <activity android:name=".Developer.DeveloperProfile" />
+        <activity android:name=".Developer.LoginDeveloper" />
+        <activity android:name=".Developer.DeveloperDashboard" />
+        <activity android:name=".Developer.Register_developer" />
+        <activity android:name=".Architect.JobAppliedDetailsEng" />
+        <activity android:name=".Engineer.EngJobDetails" />
+        <activity android:name=".Engineer.GetWagesEngineer" />
+        <activity android:name=".Architect.JobStatusApprovalEng" />
+        <activity android:name=".Engineer.WriteReviewEngineer" />
+        <activity android:name=".Engineer.EngJobOffer" />
+        <activity android:name=".Engineer.EngProfile" />
+        <activity android:name=".Engineer.EngineerDashboard" />
+        <activity android:name=".Engineer.LoginEngineer" />
+        <activity android:name=".Engineer.Register_Engineer" />
+        <activity android:name=".Architect.JobWagesArchitech" />
+        <activity android:name=".Architect.AppliedJobsArchitecht" />
+        <activity android:name=".Architect.CheckPaymentStatus" />
+        <activity android:name=".Architect.PostJObArchitech" />
+        <activity android:name=".Owner.PaymentStatus" />
+        <activity android:name=".Owner.WagesByOwner" />
+        <activity android:name=".Owner.JobApplyDetailsOwner" />
+        <activity android:name=".Owner.AppliedJobOwner" />
+        <activity android:name=".Owner.PostJobOwner" />
+        <activity android:name=".Architect.ArchitechProfile" />
+        <activity android:name=".Owner.OwnerProfile" />
+        <activity android:name=".Architect.ArchitechDashboard" />
+        <activity android:name=".Architect.LoginArchitech" />
+        <activity android:name=".Architect.Register_Architect"
+            android:parentActivityName=".Admin.UpdateMain"/>
+        <activity android:name=".Owner.OwnerDashboard" />
+        <activity android:name=".Owner.LoginOwner" />
+        <activity android:name=".Owner.Register_Owner" />
+        <activity android:name=".Labour.WriteReview" />
+        <activity android:name=".Labour.WagesApprovalRequest" />
+        <activity android:name=".Contractor.WagesRequest" />
+        <activity android:name=".Labour.GetWages" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Contractor.MapsActivityTrackLabor"
+            android:label="@string/title_activity_maps_track_labor" />
+        <activity android:name=".Contractor.JobWages" />
+        <activity android:name=".Contractor.MainActivityContractorLogin" />
+        <activity android:name=".Labour.VerifyPhone" />
+        <activity android:name=".Labour.Register_labour" />
+        <activity android:name=".Contractor.TrackLabor" />
+        <activity
+            android:name=".Contractor.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Labour.jobStatusAndTrack" />
+        <activity android:name=".Labour.JobStatusApproval" />
+        <activity android:name=".Contractor.JobApplyDetails" />
+        <activity android:name=".Contractor.AppliedJobs" />
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Labour.JobDetails" />
+        <activity android:name=".Contractor.PostJobs" />
+        <activity android:name=".Contractor.ContractorProfile" />
+        <activity android:name=".Contractor.VerifyPhoneContractor" />
+        <activity android:name=".Labour.JobOffer" />
+        <activity android:name=".Labour.LaborProfile" />
+        <activity android:name=".Admin.AdminDashboard" />
+        <activity android:name=".Contractor.ContractorDashboard" />
+        <activity android:name=".Contractor.Register_contractor" />
+        <activity android:name=".Labour.MainActivityLaourLogin" />
+        <activity android:name=".Labour.LabourDashboard" />
+        <activity android:name=".Admin.MainActivity" />
+        <activity android:name=".Admin.OpenWebsite"/>
+        <activity android:name=".Admin.UpdateMain"/>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

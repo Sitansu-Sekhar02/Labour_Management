@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">श्रम प्रबंधन</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="newuser">सदस्य नहीं है? यहां रजिस्टर करें..</string>
+    <string name="loginas">इससे लॉगिन करें</string>
+    <string name="mobnum">मोबाइल नंबर दर्ज करें</string>
+    <string name="existinguser">पहले से सदस्य हैं! यहां लॉगिन करें..</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="cpass">पासवर्ड की पुष्टि करें</string>
+    <string name="labour">लेबर</string>
+    <string name="contractor">ठेकेदार</string>
+
+    <string name="age">उम्र दर्ज करें</string>
+    <string name="address">पोस्टल एड्रेस दर्ज करें</string>
+    <string name="gender">लिंग चुनें</string>
+    <string name="male">नर</string>
+    <string name="female">महिला</string>
+    <string name="wage">मजदूरी दर दर्ज करें</string>
+    <string name="hour">कार्य समय दर्ज करें</string>
+    <string name="transport">परिवहन का तरीका दर्ज करें</string>
+    <string name="particulararea">विशेष क्षेत्र में काम करने के इच्छुक हैं</string>
+    <string name="daily">रोज</string>
+    <string name="weekly">साप्ताहिक</string>
+    <string name="monthly">मासिक</string>
+    <string name="category">श्रम की श्रेणी का चयन करें</string>
+    <string name="welcomelabor">आपका स्वागत है BUILDUDE लेबर डैशबोर्ड में, नवीनतम जॉब ऑफर के लिए कृपया निम्नलिखित भरें</string>
+    <string name="register">साइन अप करें</string>
+    <string name="workmode">काम करने के इच्छुक हैं</string>
+    <string name="welcomecontractor">आपका स्वागत है BUILDUDE ठेकेदार डैशबोर्ड कृपया लेबर असाइन करने के लिए भरें</string>
+    <string name="workinghour">साइट पर काम के घंटे</string>
+    <string name="requiredlabor">मजदूरों की आवश्यकता  </string>
+    <string name="areaofoperation">संचालन का क्षेत्र</string>
+    <string name="submit">अधीनता स्वीकार करना</string>
+    <string name="logout">
+लॉग आउट</string>
+    <string name="welocme">
+आपका स्वागत है </string>
+    <string name="presentedby">
+द्वारा प्रस्तुत
+</string>
+
+
+
+
+    <string name="click">लॉगिन / पंजीकरण के लिए नीचे क्लिक करें</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="title_activity_map_tracking">
+मानचित्र मार्ग ट्रैकिंग</string>
+        <string name="track_path_on_map">
+पैदल चलें और मानचित्र पर अपना रास्ता देखें</string>
+    <string name="permission_notice">
+कृपया ध्यान दें कि यदि आप चलते या दौड़ते समय अपना स्थान मानचित्र पर बनाना चाहते हैं तो आपकी स्थान अनुमति आवश्यक है</string>
+    <string name="permission_title">
+स्थान अनुमति अस्वीकृत</string>
+    <string name="cancel_permission_notice">
+वाह, कृपया फिर से आएं जब आपको इसकी आवश्यकता हो और अनुमति प्रदान करें</string>
+    <string name="starttracking">
+ट्रैकिंग शुरू करें</string>
+    <string name="location">आपकी स्थिति</string>
+    <string name="jobtitle">
+नौकरी का शीर्षक दर्ज करें</string>
+    <string name="jobdetails">
+कार्य की प्रकृति</string>
+    <string name="jobwages">
+जॉब वेज दर्ज करें</string>
+    <string name="jobarea">
+जॉब एरिया डालें</string>
+
+    <string name="post">
+नौकरी पोस्ट करें</string>
+    <string name="jobtitle1">
+नौकरी का नाम :</string>
+    <string name="jobdetails1">Job Details : </string>
+    <string name="jobarea1">
+नौकरी करने का स्थान: </string>
+    <string name="jobwages1">
+नौकरी की मजदूरी :</string>
+    <string name="clicktoapply">
+नौकरी के लिए आवेदन करने के लिए क्लिक करें</string>
+
+<string name="registername">
+स्वागत है  </string>
+    <string name="reg_id">
+    पंजीकृत आई.डी. :</string>
+    <string name="pjob">
+नौकरी पोस्ट करें</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="appreject">
+स्वीकृत अस्वीकृत</string>
+    <string name="tracklabor">
+ट्रैक लेबर</string>
+
+    <string name="wages">
+वेतन</string>
+    <string name="job">काम</string>
+    <string name="labourname">मज़दूर नाम: </string>
+    <string name="cname">ठेकेदार नाम: </string>
+    <string name="dateofappy">तारीख : </string>
+    <string name="approve">मंजूर</string>
+    <string name="reject"> अस्वीकृत </string>
+    <string name="sendmoney">
+पैसे भेजो</string>
+    <string name="joboffer">
+नौकरी का प्रस्ताव</string>
+    <string name="review">
+समीक्षा</string>
+    <string name="jobstats">काम स्थिति</string>
+
+  <!--  <string name="newuser">?????</string>
+-->
+</resources>

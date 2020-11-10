@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Labour.GetWages"
+    android:background="@color/background">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fetchname1"
+            android:textColor="@color/buttoncolor"
+            android:text="Registerd Name :"
+            android:textSize="@dimen/md_15"
+            android:visibility="invisible"
+            android:layout_margin="@dimen/md_5"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fetchname"
+            android:textColor="@color/buttoncolor"
+            android:text="username"
+            android:layout_toRightOf="@+id/fetchname1"
+            android:textSize="@dimen/md_15"
+            android:layout_margin="@dimen/md_5"
+            android:visibility="invisible"
+            android:gravity="center"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_getwages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_below="@+id/fetchname1"
+            android:layout_margin="@dimen/md_15"
+            android:divider="@color/colorPrimaryDark"
+            android:dividerHeight="15dp"/>
+    </RelativeLayout>
+
+
+</ScrollView>

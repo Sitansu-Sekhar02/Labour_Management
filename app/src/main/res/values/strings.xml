@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BUILDUDE</string>
+    <string name="email">Enter Email Address</string>\
+    <string name="password">Enter Password</string>
+    <string name="login">Login</string>
+
+    <string name="loginas">Login As</string>
+    <string name="mobnum">Enter Mobile Number</string>
+    <string name="existinguser">LOGIN</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Enter User Name</string>
+    <string name="cpass">Enter Confirm Password</string>
+    <string name="labour">Labor</string>
+    <string name="contractor"> Contractor</string>
+    <string name="newuser">SIGNUP</string>
+    <string name="age">Enter Age</string>
+    <string name="address">Enter Pincode</string>
+    <string name="gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="wage">Enter Wage Rate</string>
+    <string name="hour">Enter Working Hour</string>
+    <string name="transport">Enter Mode Of Transport</string>
+    <string name="particulararea">Interested To Work In Particular Area</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="category">Select Category of Labor</string>
+    <string name="welcomelabor">Welcome To BUILDUDE Labor Dashboard Please Fill the Following for latest job Offer</string>
+    <string name="register">Sign Up</string>
+    <string name="workmode">Interested To Work On</string>
+    <string name="welcomecontractor">Welcome To BUILDUDE Contractor Dashboard Please Fill the Following for Assigning Labor</string>
+    <string name="welcomeowner">Welcome To BUILDUDE Owner Dashboard Please Fill the Following for Assigning Labor</string>
+    <string name="workinghour">Working Hour On Site</string>
+    <string name="requiredlabor">Requires Laborers On </string>
+    <string name="areaofoperation"> Area of operation</string>
+    <string name="submit">Submit</string>
+    <string name="logout">LogOut</string>
+    <string name="welocme">Welcome To </string>
+    <string name="presentedby">Presented By</string>
+    <string name="click">Click Below For Login / Registration</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Mar">Marathi</string>
+    <string name="Eng">English</string>
+    <string name="Hind">Hindi</string>
+    <string name="preferdlag">Select Language</string>
+
+
+    <string name="title_activity_map_tracking">Map Route Tracking</string>
+    <string name="track_path_on_map">Walk and route your path on map</string>
+    <string name="permission_notice">Please note that your location permission is important if you want to draw your route on map while walking or running</string>
+    <string name="permission_title">Location Permission Denied</string>
+    <string name="cancel_permission_notice">Wow, please come back again when you need it and grant the permission</string>
+    <string name="starttracking">Start Tracking</string>
+    <string name="location">Your Location</string>
+    <string name="jobtitle">Name Of Work</string>
+    <string name="jobdetails">Nature Of Work</string>
+    <string name="jobwages">Enter Job Wages Per Day</string>
+    <string name="jobarea">Enter Job Area</string>
+
+    <string name="post">Post Job</string>
+    <string name="jobtitle1">Job Title : </string>
+    <string name="jobdetails1">Job Details : </string>
+    <string name="jobarea1">Job Location :   </string>
+    <string name="jobwages1">Job Wages : </string>
+    <string name="clicktoapply">Click To Apply For The Job</string>
+
+
+    <string name="timeOutError">Connection timed out. Please try again with stable connection</string>
+    <string name="noConnectionError">It seems that no proper connection has been established. Please try again with a stable internet connection</string>
+    <string name="authFailureError">Connection authentication has failed. Please logout and login again to proceed.</string>
+    <string name="serverError">Oops! Server error. Please try after sometime.</string>
+    <string name="networkError">It seems like there is some problem with the network. Please try again.</string>
+    <string name="parseError">It seems like there is some problem with the parsing of data. Please try again.</string>
+    <string name="internal_error">Oops! Seems like an internal error. Please try again.</string>
+    <string name="no_internet_connection">Please check your internet connection</string>
+    <string name="title_activity_maps_track_labor">Map</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+
+    <string name="reg_id">Registered ID:</string>
+    <string name="pjob">Post Job</string>
+    <string name="profile">Profile</string>
+    <string name="appreject">Approve/Reject</string>
+    <string name="tracklabor">Track Labor</string>
+    <string name="registername">Welcome</string>
+    <string name="wages">Payment :</string>
+
+    <string name="job">Job</string>
+    <string name="labourname">Labor Name: </string>
+    <string name="cname">Contractor Name:  </string>
+    <string name="dateofappy">Job Posting Date : </string>
+    <string name="approve">Approve</string>
+    <string name="reject"> Reject</string>
+    <string name="sendmoney">Send Money</string>
+    <string name="joboffer">Job Offer</string>
+    <string name="review">Review</string>
+    <string name="jobstats">Job Status</string>
+    <string name="paymentStatus">Payment Status</string>
+    <string name="alljobs">Posted Jobs</string>
+    <string name="refrename">Enter Referral Name</string>
+    <string name="refcode">Enter Referral Person Mobile Number</string>
+
+
+</resources>

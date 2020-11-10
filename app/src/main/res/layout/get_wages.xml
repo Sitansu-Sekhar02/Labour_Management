@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/_10sdp"
+    card_view:cardElevation="@dimen/_15sdp"
+    card_view:cardUseCompatPadding="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_box"
+        android:padding="@dimen/_10sdp"
+        >
+        <TextView
+            android:id="@+id/textjobtitilewages1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/colortext"
+            android:text="@string/jobtitle1"/>
+
+        <TextView
+            android:id="@+id/textjobtitilewages"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@id/textjobtitilewages1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colortext" />
+
+
+        <TextView
+            android:id="@+id/textjobidwages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+           />
+
+
+
+
+        <TextView
+            android:id="@+id/textjob_wageswages1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textjobtitilewages"
+            android:textColor="@color/colortext"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="@string/wages"/>
+        <TextView
+            android:id="@+id/textjob_wageswages"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textjobtitilewages"
+            android:layout_toRightOf="@id/textjob_wageswages1"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient"
+            android:gravity="center"
+            android:text="200/-"
+            android:textSize="@dimen/_15sdp"/>
+
+
+        <TextView
+            android:id="@+id/textcontractorname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textjob_wageswages"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/colortext"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/cname"/>
+        <TextView
+            android:id="@+id/contractorname145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textjob_wageswages"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/textcontractorname1"
+            android:textColor="@color/colortext"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/date_wages1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contractorname145"
+            android:textColor="@color/colortext"
+            android:text="Job Date:"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <TextView
+            android:id="@+id/wage_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contractorname145"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/date_wages1"
+            android:textColor="@color/colortext"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <TextView
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:id="@+id/wages_approval_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wage_date"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/pink_600"
+            android:layout_marginTop="15dp"
+         android:text="Previous Payment Status Successful"
+            android:textStyle="bold"
+            android:textSize="@dimen/md_15"/>
+
+        <TextView
+            android:id="@+id/textcontractor_idwages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/textlabor_idwages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+           />
+        <TextView
+            android:id="@+id/labornamename145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+           />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
